@@ -1,4 +1,6 @@
-# DeepLearningFlappyBirdDeepLearningFlappyBird(Add a choice to play and train the NN by yourself)modified from https://github.com/yenchenlin/DeepLearningFlappyBird
+# DeepLearningFlappyBird
+(Add a choice to play and train the NN by yourself)
+modified from https://github.com/yenchenlin/DeepLearningFlappyBird
 
 English：Modify:
 1.Add a choice to play and train the NN by yourself.
