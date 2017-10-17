@@ -149,9 +149,9 @@ def trainNetwork(s, readout, h_fc1, sess):
                 pygame.quit()
                 sys.exit()
             # 选择的模式二、鼠标按下、左键
-            elif choose_mode == '2' and event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+            elif choose_mode == 2 and event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                 a_t = [0, 1]  # 点击一次小鸟飞一次
-        if choose_mode == 2:
+        if choose_mode != 2:
             # choose an action epsilon greedily
             readout_t = readout.eval(feed_dict={s: [s_t]})[0]  # 网络名称.eval   [0]取第一行元素 a_t = np.zeros([ACTIONS])
             action_index = 0
